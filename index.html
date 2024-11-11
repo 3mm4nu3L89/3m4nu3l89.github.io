@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="encabezado">
+        <nav class="navegacion">
+            <a class="navegacion__enlace" href="#presentacion">
+                <h2 class="navegacion__titulo">Informatorio</h2>
+            </a>
+            <ul class="enlaces">
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace" href="#presentacion">Inicio</a>
+                </li>
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace" href="#sobre-mi">Sobre mí</a>
+                </li>
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace" href="#proyectos">Proyectos</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+    <main class="principal">
+        <section class="presentacion" id="presentacion">
+            <div class="presentacion__contenedor_info">
+                <h1 class="presentacion__titulo">Soy desarrollador</h1>
+                <p class="presentacion__parrafo">Manejo HTML, CSS, JS, SQL, GeneXus, Reac y Git</p>
+                <div class="presentacion__contenedor_botones">
+                    <a href="#sobre-mi" class="boton" role="button">Sobre mí</a>
+                    <a href="./assets/docs/Curriculum Emmanuel Moglia.pdf" target="_blank" class="boton boton_oscuro"
+                        role="button">Descargar C.V.</a>
+                </div>
+            </div>
+        </section>
+        <article class="articulo sobre_mi" id="sobre-mi">
+            <h2 class="articulo__titulo">Un poco de mi</h2>
+            <div class="articulo__contenedor_descripciones">
+                <section class="seccion_descripcion">
+                    <div class="seccion_descripcion__porta_retrato">
+                        <img class="seccion_descripcion__imagen" src="./assets/images/profile/viajecordoba.PNG"
+                            alt="Foto en un viaje" title="Trekking" />
+                    </div>
+                    <div class="seccion_descripcion__info scroll scroll_fino scroll_gris"
+                        aria-label="descripcion personal">
+                        <h3 class="seccion_descripcion__titulo" id="mi_historia_titulo">
+                            Viajes y aventuras
+                        </h3>
+                        <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi historia"
+                            aria-describedby="mi_historia_titulo">
+                            Disfruto mucho de viajar y conocer nuevos lugares, tener experiencias y aventuras.
+                        </p>
+                        <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi historia"
+                            aria-describedby="mi_historia_titulo">
+                            La foto es de un viaje a la provincia de Cordoba, haciendo trekking entre las sierras en la
+                            localidad de Tanti.
+                        </p>
+                    </div>
+                </section>
+                <section class="seccion_descripcion">
+                    <div class="seccion_descripcion__info scroll scroll_fino scroll_gris"
+                        aria-label="descripcion personal">
+                        <h3 class="seccion_descripcion__titulo" id="mi_historia_titulo">
+                            Perrijo
+                        </h3>
+                        <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi historia"
+                            aria-describedby="mi_historia_titulo">
+                            El es Ahots mi perrito que se comporta como una persona mas. Es mi compañero incondicional.
+                        </p>
+                        <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi historia"
+                            aria-describedby="mi_historia_titulo">
+
+                        </p>
+                    </div>
+                    <div class="seccion_descripcion__porta_retrato">
+                        <img class="seccion_descripcion__imagen seccion_descripcion__imagen_variante"
+                            src="./assets/images/profile/Athos.jpg" alt="Athos" title="Athos" />
+                    </div>
+                </section>
+                <section class="seccion_descripcion">
+                    <div class="seccion_descripcion__porta_retrato">
+                        <img class="seccion_descripcion__imagen" src="./assets/images/profile/Ejercicio.PNG"
+                            alt="Haciendo ejercicio" title="Ejercicio" />
+                    </div>
+                    <div class="seccion_descripcion__info scroll scroll_fino scroll_gris"
+                        aria-label="descripcion personal">
+                        <h3 class="seccion_descripcion__titulo" id="mi_historia_titulo">
+                            Actividad fisica
+                        </h3>
+                        <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi historia"
+                            aria-describedby="mi_historia_titulo">
+                            Me gustan realizar muchos tipos de actividad fisica, actualemente entreno Crossfit. Tambien
+                            salgo a caminar o trotar y a andar en bicicleta
+                        </p>
+                        <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi historia"
+                            aria-describedby="mi_historia_titulo">
+                            Tambien realice en otros momentos musculacion, Basquet, Futbol, Paddle y judo.
+                        </p>
+                    </div>
+                </section>
+                <section class="seccion_descripcion">
+                    <div class="seccion_descripcion__info scroll scroll_fino scroll_gris"
+                        aria-label="descripcion personal">
+                        <h3 class="seccion_descripcion__titulo" id="mi_historia_titulo">
+                            Habilidades y flexibilidad
+                        </h3>
+                        <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi historia"
+                            aria-describedby="mi_historia_titulo">
+                            Soy muy ingenioso y habilidoso en trabajos manuales y caseros. Este es el caso de la foto,
+                            de un taller de artesanias y joyeria que estuve realizando.
+                        </p>
+                        <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi historia"
+                            aria-describedby="mi_historia_titulo">
+                            Tambien ocupo mis habilidades en reparaciones del hogar y tareas cotidianas. Un gran Hobbie
+                            es la cocina.
+                        </p>
+                    </div>
+                    <div class="seccion_descripcion__porta_retrato">
+                        <img class="seccion_descripcion__imagen seccion_descripcion__imagen_variante"
+                            src="./assets/images/profile/Artesania.jpg" alt="Foto artesania" title="Artesania" />
+                    </div>
+                </section>
+            </div>
+        </article>
+
+        <article class="articulo proyectos" id="proyectos">
+            <h2 class="articulo__titulo">Mis proyectos</h2>
+            <div class="contenedor_tarjetas_grid">
+                <article class="tarjeta" aria-label="presentacion de proyecto personal">
+                    <img class="tarjeta__imagen" src="./assets/images/proyectos/paisaje.jpg" alt="imagen del proyecto"
+                        title="proyecto 1" />
+                    <div class="tarjeta__contenido">
+                        <h3 class="tarjeta__titulo" id="titulo_proyecto_1">
+                            Proyecto 1
+                        </h3>
+                        <span class="tarjeta__divisor"></span>
+                        <p class="tarjeta__parrafo scroll scroll_fino" aria-label="descripcion de proyecto personal"
+                            aria-describedby="titulo_proyecto_1">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nulla asperiores aliquam
+                            suscipit, dolorem debitis sequi reiciendis ratione non architecto hic mollitia cum ab
+                            impedit pariatur veniam neque exercitationem et.
+                        </p>
+                        <a href="#" class="boton boton_oscuro" target="_blank">Ver proyecto</a>
+                    </div>
+                </article>
+                <article class="tarjeta" aria-label="presentacion de proyecto personal">
+                    <img class="tarjeta__imagen" src="./assets/images/proyectos/paisaje.jpg" alt="imagen del proyecto"
+                        title="proyecto 2" />
+                    <div class="tarjeta__contenido">
+                        <h3 class="tarjeta__titulo" id="titulo_proyecto_2">
+                            Proyecto 2
+                        </h3>
+                        <span class="tarjeta__divisor"></span>
+                        <p class="tarjeta__parrafo scroll scroll_fino" aria-label="descripcion de proyecto personal"
+                            aria-describedby="titulo_proyecto_1">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nulla asperiores aliquam
+                            suscipit, dolorem debitis sequi reiciendis ratione non architecto hic mollitia cum ab
+                            impedit pariatur veniam neque exercitationem et.
+                        </p>
+                        <a href="#" class="boton boton_oscuro" target="_blank">Ver proyecto</a>
+                    </div>
+                </article>
+                <article class="tarjeta" aria-label="presentacion de proyecto personal">
+                    <img class="tarjeta__imagen" src="./assets/images/proyectos/paisaje.jpg" alt="imagen del proyecto"
+                        title="proyecto 3" />
+                    <div class="tarjeta__contenido">
+                        <h3 class="tarjeta__titulo" id="titulo_proyecto_3">
+                            Proyecto 3
+                        </h3>
+                        <span class="tarjeta__divisor"></span>
+                        <p class="tarjeta__parrafo scroll scroll_fino" aria-label="descripcion de proyecto personal"
+                            aria-describedby="titulo_proyecto_1">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nulla asperiores aliquam
+                            suscipit, dolorem debitis sequi reiciendis ratione non architecto hic mollitia cum ab
+                            impedit pariatur veniam neque exercitationem et.
+                        </p>
+                        <a href="#" class="boton boton_oscuro" target="_blank">Ver proyecto</a>
+                    </div>
+                </article>
+                <article class="tarjeta" aria-label="presentacion de proyecto personal">
+                    <img class="tarjeta__imagen" src="./assets/images/proyectos/paisaje.jpg" alt="imagen del proyecto"
+                        title="proyecto 4" />
+                    <div class="tarjeta__contenido">
+                        <h3 class="tarjeta__titulo" id="titulo_proyecto_4">
+                            Proyecto 4
+                        </h3>
+                        <span class="tarjeta__divisor"></span>
+                        <p class="tarjeta__parrafo scroll scroll_fino" aria-label="descripcion de proyecto personal"
+                            aria-describedby="titulo_proyecto_1">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nulla asperiores aliquam
+                            suscipit, dolorem debitis sequi reiciendis ratione non architecto hic mollitia cum ab
+                            impedit pariatur veniam neque exercitationem et.
+                        </p>
+                        <a href="#" class="boton boton_oscuro" target="_blank">Ver proyecto</a>
+                    </div>
+                </article>
+                <article class="tarjeta" aria-label="presentacion de proyecto personal">
+                    <img class="tarjeta__imagen" src="./assets/images/proyectos/paisaje.jpg" alt="imagen del proyecto"
+                        title="proyecto 5" />
+                    <div class="tarjeta__contenido">
+                        <h3 class="tarjeta__titulo" id="titulo_proyecto_5">
+                            Proyecto 5
+                        </h3>
+                        <span class="tarjeta__divisor"></span>
+                        <p class="tarjeta__parrafo scroll scroll_fino" aria-label="descripcion de proyecto personal"
+                            aria-describedby="titulo_proyecto_1">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nulla asperiores aliquam
+                            suscipit, dolorem debitis sequi reiciendis ratione non architecto hic mollitia cum ab
+                            impedit pariatur veniam neque exercitationem et.
+                        </p>
+                        <a href="#" class="boton boton_oscuro" target="_blank">Ver proyecto</a>
+                    </div>
+                </article>
+            </div>
+        </article>
+    </main>
+</body>
+<footer class="pie_de_pagina" role="contentinfo">
+    <div class="pie_de_pagina__columna">
+        <h4 class="pie_de_pagina__titulo_columna">Mis redes</h4>
+        <ul class="enlaces enlaces_redes">
+            <li class="enlaces__item">
+                <a class="enlaces__enlace enlaces__enlace_footer" href="https://github.com/3mm4nu3L89"
+                    target="_blank"><img class="enlaces__icono" src="./assets/images/logos/github-logo.png"
+                        alt="logo de github" title="github" /></a>
+            </li>
+            <li class="enlaces__item">
+                <a class="enlaces__enlace enlaces__enlace_footer" href="https://www.instagram.com/emmanuelmoglia/"
+                    target="_blank">
+                    <img class="enlaces__icono" src="./assets/images/logos/ig-logo.png" alt="logo de instagram"
+                        title="instagram" />
+                </a>
+            </li>
+            <li class="enlaces__item">
+                <a class="enlaces__enlace enlaces__enlace_footer" href="https://www.linkedin.com/in/emmanuel-moglia/"
+                    target="_blank"><img class="enlaces__icono" src="./assets/images/logos/LinkedIn-logo.png"
+                        alt="logo de Linkedin" title="LinkedIn" /></a>
+            </li>
+        </ul>
+    </div>
+    <div class="pie_de_pagina__columna">
+        <h4 class="pie_de_pagina__titulo_columna">Contactame</h4>
+        <ul class="enlaces enlaces_vertical">
+            <li class="enlaces__item">
+                <a class="enlaces__enlace enlaces__enlace_footer" href="mailto:mail@mail.com" target="_blank">Mail:
+                    emmanuel.moglia@gmail.com</a>
+            </li>
+        </ul>
+    </div>
+    <div class="pie_de_pagina__columna" role="navigation">
+        <h4 class="pie_de_pagina__titulo_columna">Secciones</h4>
+        <ul class="enlaces enlaces_vertical">
+            <li class="enlaces__item">
+                <a class="enlaces__enlace enlaces__enlace_footer" href="#presentacion">Inicio</a>
+            </li>
+            <li class="enlaces__item">
+                <a class="enlaces__enlace enlaces__enlace_footer" href="#sobre-mi">Sobre mi</a>
+            </li>
+            <li class="enlaces__item">
+                <a class="enlaces__enlace enlaces__enlace_footer" href="#proyectos">Proyectos</a>
+            </li>
+        </ul>
+    </div>
+    <div class="pie_de_pagina__copyright">
+        <p>©️Copyright 2024</p>
+    </div>
+</footer>
+
+</html>
